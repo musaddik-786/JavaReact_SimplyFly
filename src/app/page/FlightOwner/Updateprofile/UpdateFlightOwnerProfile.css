@@ -1,0 +1,87 @@
+.update-profile-container {
+  max-width: 600px; /* Set a max width for the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px; /* Add some padding */
+  border: 1px solid #d0d0dc; /* Consistent border color */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: #f4f4f9; /* Consistent light background */
+}
+
+.update-profile-container h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  color: #4b4b60; /* Dark gray color for heading */
+}
+
+.update-profile-container .ui.form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.update-profile-container .ui.input {
+  margin-bottom: 15px; /* Space between input fields */
+  border: 1px solid #d0d0dc; /* Consistent border color */
+  border-radius: 5px; /* Rounded input fields */
+  padding: 10px; /* Padding inside input fields */
+}
+
+.update-profile-container .ui.button {
+  background-color: #9ac3bc; /* Consistent button color */
+  color: #fff; /* Button text color */
+  border-radius: 5px; /* Round button corners */
+  padding: 10px; /* Add padding to the button */
+  font-size: 16px; /* Button text size */
+  transition: background-color 0.3s ease;
+}
+
+.update-profile-container .ui.button:hover {
+  background-color: #4b4b60; /* Darken button on hover */
+}
+
+.update-profile-container .ui.modal {
+  padding: 20px; /* Add padding inside the modal */
+  border-radius: 8px; /* Round modal corners */
+  background-color: #fff; /* Consistent white background for modal */
+}
+
+.update-profile-container .modal-header {
+  font-size: 18px; /* Header font size */
+  font-weight: bold; /* Make header bold */
+  color: #4b4b60; /* Dark gray for modal header */
+}
+
+.update-profile-container .modal-content {
+  margin-top: 10px; /* Space above modal content */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4b4b60; /* Consistent text color */
+}
+
+.update-profile-container .modal-actions {
+  display: flex; /* Flexbox for button layout */
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+.modal-actions .ui.button {
+  margin-left: 10px; /* Space between buttons */
+  background-color: #9ac3bc; /* Consistent button color */
+  color: #fff; /* Text color */
+}
+
+.modal-actions .ui.button:last-child {
+  background-color: #e74c3c; /* Cancel button color */
+  color: #fff; /* Text color for cancel button */
+}
+
+.profile-details {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4b4b60; /* Text color consistent with theme */
+}
+
+.profile-details p {
+  margin: 5px 0;
+  color: #4b4b60; /* Text color */
+}

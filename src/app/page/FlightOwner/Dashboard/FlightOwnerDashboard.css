@@ -1,0 +1,59 @@
+.flightowner-dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .flightowner-sidebar {
+    width: 250px;
+    background-color: #d0d0dc;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .flightowner-sidebar h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .flightowner-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flightowner-sidebar ul li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #9ac3bc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flightowner-sidebar ul li:hover {
+    background-color: #4b4b60;
+  }
+  
+  .flightowner-main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background: url('../../images/bg.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .flightowner-main-content h1 {
+    font-size: 2.5rem;
+    color: #9d8080;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .flightowner-cards-container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 90%;
+  }
+  

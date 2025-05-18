@@ -1,0 +1,118 @@
+/* .booking-summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+} */
+
+
+.booking-summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f0f0; /* Optional: fallback color */
+    min-height: 100vh;
+    background-image: url('../images//BookSummary.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+.ticket {
+    width: 600px; /* Adjusted width for a rectangular shape */
+    padding: 20px;
+    background:  url('../images/BookSummary.jpg') no-repeat center center; /* Background image with white overlay */
+    background-size: cover; /* Cover the entire ticket area */
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flight-details {
+    margin-bottom: 20px;
+}
+
+.flight-route {
+    text-align: center;
+    font-weight: bold;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    background-color: #e7f3ff;
+}
+
+.flight-info-item {
+    flex: 1;
+    text-align: center;
+}
+
+.passenger-info {
+    margin-top: 20px;
+}
+
+.passenger-card {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.passenger-header {
+    display: flex;
+    justify-content: space-between; /* Align headers in a single line */
+    padding: 5px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #007acc; /* Optional: add a bottom border */
+    margin-bottom: 5px; /* Space below the header */
+}
+
+.passenger-details {
+    display: flex;
+    justify-content: space-between; /* Align passenger details in a single line */
+    padding: 5px 0;
+}
+
+.passenger-details span {
+    flex: 1; /* Equal space for each detail */
+    text-align: center; /* Center align text */
+    margin: 0; /* Remove default margin */
+}
+
+.passenger-details span:first-child {
+    text-align: left; /* Align the first item to the left */
+}
+
+.payment-status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.confirm-button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-button:hover {
+    background-color: #005fa3;
+}

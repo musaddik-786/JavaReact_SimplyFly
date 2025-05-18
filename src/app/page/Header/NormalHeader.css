@@ -1,0 +1,151 @@
+
+
+/* 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px;
+  background-color: #f7f7f7;
+  position: relative; 
+}
+
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+
+.ui.menu {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  gap: 15px;
+}
+
+.ui.menu .ui.button {
+  border: none !important;
+  background: transparent !important;
+  margin: 0;
+  box-shadow: none !important;
+}
+
+.ui.menu .ui.button:hover {
+  background: rgba(0, 0, 0, 0.1); 
+}
+
+
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-menu {
+  position: absolute; 
+  top: 100%; 
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 150px;
+  z-index: 1000;
+  display: none; 
+}
+
+.dropdown-menu.show {
+  display: block; 
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+} */
+* {
+  box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+body {
+  margin: 0; /* Remove any default body margins */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px;
+  background-color: #f7f7f7;
+  position: relative; 
+  width: 100vw; /* Ensure full viewport width */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.ui.menu {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  gap: 15px;
+}
+
+.ui.menu .ui.button {
+  border: none !important;
+  background: transparent !important;
+  margin: 0;
+  box-shadow: none !important;
+}
+
+.ui.menu .ui.button:hover {
+  background: rgba(0, 0, 0, 0.1); 
+}
+
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-menu {
+  position: absolute; 
+  top: 100%; 
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 150px;
+  z-index: 1000;
+  display: none; 
+}
+
+.dropdown-menu.show {
+  display: block; 
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}

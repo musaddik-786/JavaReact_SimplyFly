@@ -1,0 +1,24 @@
+.airport-list-container {
+    padding: 20px;
+  }
+  
+  .airport-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .airport-table th, .airport-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .airport-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

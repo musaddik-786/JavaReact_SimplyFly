@@ -1,0 +1,106 @@
+/* .flightowner-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e3ef;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-brand h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  .navbar-links a {
+    color: #040404;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #c7c7f3;
+    border-radius: 5px;
+  }
+  
+  .logout-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }
+   */
+
+
+   .flightowner-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand h2 {
+    margin: 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar-links li {
+    margin-left: 15px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .user-dropdown .user-icon {
+    margin-right: 8px;
+  }
+
+  .dropdown-arrow {
+    margin-left: 5px;  /* Adds space between username and arrow */
+    color: white;      /* Dropdown arrow color */
+  }
+  

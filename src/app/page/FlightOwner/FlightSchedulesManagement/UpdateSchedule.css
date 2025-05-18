@@ -1,0 +1,38 @@
+.flight-trip-list-container {
+    background-color: #f9f9f9; /* Light background for the container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.flight-trip-table {
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse; /* Maintain border collapse */
+    margin-top: 20px; /* Space above the table */
+}
+
+.flight-trip-table th,
+.flight-trip-table td {
+    border: 1px solid #ddd; /* Keep table border styling */
+    padding: 12px; /* Ensure consistent padding in table cells */
+    text-align: left; /* Left align text in table cells */
+}
+
+.flight-trip-table th {
+    background-color: #f2f2f2; /* Header background */
+    font-weight: bold; /* Bold text for header */
+}
+
+.flight-trip-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+.flight-trip-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    font-weight: bold; /* Bold error message */
+    margin-top: 20px; /* Space above the error message */
+}
